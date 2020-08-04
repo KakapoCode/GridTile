@@ -21,19 +21,10 @@ namespace Testing_Grid
                     rowSize = int.Parse(Console.ReadLine());
                     } while (colSize < min || rowSize < min || colSize > maxX || rowSize > maxY);
 
-                Tile.SetGridSize(colSize, rowSize);
-                Tile[,] tiles = new Tile[colSize, rowSize];
-
-                //Initialize the objects in the grid array. Draw the grid using their symbol. 
-                for (int x = 0; x < colSize; x++)
-                {
-                    for (int y = 0; y < rowSize; y++)
-                    {
-                        tiles[x, y] = new Tile(x, y);
-                        tiles[x, y].ReadSymbol();
-                    }
-                    Console.WriteLine();
-                }
+                Grid grid = new Grid(colSize, rowSize);
+                grid.InitializeGrid();
+                grid.DisplayGrid();
+                Console.ReadLine();
         }
 
     }
