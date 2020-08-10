@@ -1,5 +1,6 @@
 ﻿using System;
-
+//Lasted Updated 8/10/2020. Jonathan S. 
+//A simple binary tree maze. 
 namespace Testing_Grid
 {
     class Program
@@ -21,10 +22,15 @@ namespace Testing_Grid
                     rowSize = int.Parse(Console.ReadLine());
                     } while (colSize < min || rowSize < min || colSize > maxX || rowSize > maxY);
 
+            string ans = "";
+            do
+            {
                 Grid grid = new Grid(colSize, rowSize);
                 grid.InitializeGrid();
+                grid.BinaryTreeMaze();
                 grid.DisplayGrid();
-                Console.ReadLine();
+                ans = Console.ReadLine();
+            } while (ans != "exit");
         }
 
     }

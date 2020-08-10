@@ -1,0 +1,11 @@
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\obj\Debug\netcoreapp2.1\Testing_Grid.csproj.CoreCompileInputs.cache
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\obj\Debug\netcoreapp2.1\Testing_Grid.AssemblyInfoInputs.cache
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\obj\Debug\netcoreapp2.1\Testing_Grid.AssemblyInfo.cs
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\bin\Debug\netcoreapp2.1\Testing_Grid.deps.json
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\bin\Debug\netcoreapp2.1\Testing_Grid.runtimeconfig.json
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\bin\Debug\netcoreapp2.1\Testing_Grid.runtimeconfig.dev.json
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\bin\Debug\netcoreapp2.1\Testing_Grid.dll
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\bin\Debug\netcoreapp2.1\Testing_Grid.pdb
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\obj\Debug\netcoreapp2.1\Testing_Grid.csprojAssemblyReference.cache
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\obj\Debug\netcoreapp2.1\Testing_Grid.dll
+C:\Users\Office PC\source\repos\Testing_Grid\Testing_Grid\obj\Debug\netcoreapp2.1\Testing_Grid.pdb
