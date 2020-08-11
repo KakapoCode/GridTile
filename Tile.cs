@@ -15,8 +15,8 @@ namespace Testing_Grid
     {
         public Location Loc { get; private set; }
         public string Symbol { get; set; }
-        private static int ColSize = 5;
-        private static int RowSize = 5;
+        private static int ColSize = -1;
+        private static int RowSize = -1;
 
         public Tile(int x, int y)
         {
@@ -24,10 +24,14 @@ namespace Testing_Grid
             SetLoc(x, y);
         }
 
+        //Should only be run one time. 
         static public void SetSize(int col, int row)
         {
-            ColSize = col - 1;
-            RowSize = row - 1;
+            if (RowSize < 0 && ColSize < 0)
+            {
+                ColSize = col - 1;
+                RowSize = row - 1;
+            }
         }
         public void ReadSymbol()
         {
